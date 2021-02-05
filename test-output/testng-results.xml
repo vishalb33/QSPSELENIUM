@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="23096" started-at="2021-02-05T10:52:52Z" finished-at="2021-02-05T10:53:15Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="23096" started-at="2021-02-05T10:52:52Z" finished-at="2021-02-05T10:53:15Z">
+      <class name="Demo.testngDemo.Parallel1">
+        <test-method status="PASS" signature="TC2()[pri:0, instance:Demo.testngDemo.Parallel1@1b604f19]" name="TC2" duration-ms="20690" started-at="2021-02-05T10:52:52Z" finished-at="2021-02-05T10:53:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC2 -->
+        <test-method status="PASS" signature="TC1()[pri:0, instance:Demo.testngDemo.Parallel1@1b604f19]" name="TC1" duration-ms="23063" started-at="2021-02-05T10:52:52Z" finished-at="2021-02-05T10:53:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC1 -->
+      </class> <!-- Demo.testngDemo.Parallel1 -->
+      <class name="Demo.testngDemo.Parallel2">
+        <test-method status="PASS" signature="TC2()[pri:0, instance:Demo.testngDemo.Parallel2@7823a2f9]" name="TC2" duration-ms="21091" started-at="2021-02-05T10:52:52Z" finished-at="2021-02-05T10:53:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC2 -->
+      </class> <!-- Demo.testngDemo.Parallel2 -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
